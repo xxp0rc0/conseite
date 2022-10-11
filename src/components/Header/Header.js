@@ -104,7 +104,7 @@ const Header = () => {
                   <DropdownItem>
                     <NavLink
                       style={{ textDecoration: "none", color: "black" }}
-                      to="/products"
+                      to="/"
                     >
                       lens
                     </NavLink>{" "}
@@ -112,7 +112,7 @@ const Header = () => {
                   <DropdownItem>
                     <NavLink
                       style={{ textDecoration: "none", color: "black" }}
-                      to="/products"
+                      to="/"
                     >
                       tripod
                     </NavLink>
