@@ -1,0 +1,41 @@
+.cart-pro-info {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 2px;
+}
+.cart-pro-price {
+  background-color: #e38e91;
+  font-size: 20px;
+  text-align: end;
+  right: 24px;
+  position: fixed;
+  padding: 0 10px
+}
+.cart-ptc-btn {
+  position: fixed;
+  bottom: 15px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  height: 60px;
+  width: 23%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .cart-ptc-btn {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cart-ptc-btn {
+    width: 43%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cart-ptc-btn {
+    width: 75%;
+  }
+}

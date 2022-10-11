@@ -1,0 +1,125 @@
+.social-media{
+  font-size: 2.5vw;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+   justify-content: center;
+  align-items: center;
+  padding: 0 6rem;
+}
+
+.mail{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+padding: 0 6rem;
+}
+.here{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#mail-title{
+  font-size: 2.5vw;
+}
+#whatever{
+  margin-bottom: 15px;
+}
+.newsletter{
+  font-size: 1.5vw;
+  padding: 0.5rem 1rem;
+  background-color: #A0D5A5;
+}
+.email-box{
+  border: solid 1px;
+  border-radius: 0;
+}
+.social-grid{
+  border-right: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: solid 1px;
+}
+.contact span{
+  padding: 0 1rem;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.social-contact{
+  height: 25rem;
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+ 
+};
+@media screen and (max-width: 1025px) {
+  .mail{
+    padding: 0 0 0 3rem;
+  }
+};
+@media screen and (max-width: 900px) {
+  .social-grid{
+    border-right: none;
+    border-bottom: solid 1px;
+    text-align: center;
+  }
+  .social-media{
+     padding: 1rem 2rem !important;
+     font-size: 4vw;
+  }
+  .social-contact{
+    height: auto;
+    padding-bottom: 2rem;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .mail{
+    padding: 2rem 0 0 0;
+    font-size: 5vw;
+  }
+  #mail-title{
+    font-size: 3vw;
+  }
+  .newsletter{
+    font-size: 3vw;
+  }
+  .contact{
+    padding: 2rem 2rem;
+    text-align: center
+  }
+};
+@media screen and (max-width: 600px) {
+  .social-grid{
+    border-right: none;
+    border-bottom: solid 1px;
+    text-align: center;
+  }
+  .social-media{
+     padding: 1rem 2rem !important;
+     font-size: 4vw;
+  }
+  .social-contact{
+    height: auto;
+    padding-bottom: 2rem;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .mail{
+    padding: 2rem 0 0 0;
+    font-size: 5vw;
+  }
+  #mail-title{
+    font-size: 5vw;
+  }
+  .newsletter{
+    font-size: 5vw;
+  }
+};

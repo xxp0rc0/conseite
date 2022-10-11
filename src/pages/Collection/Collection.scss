@@ -1,0 +1,55 @@
+.collection-pro-name{
+    margin-left:  -15px;
+    font-size: 1rem;
+    font-weight: 600;
+};
+.collection-pro-price{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: end;
+};
+.collection-pro-info{
+    padding-bottom: 0;
+    border-bottom: solid 2px;
+    width: 17.5rem !important;
+}
+.collection-image{
+    object-fit: cover;
+    width: 80% !important;
+}
+.collection-pro-gird{
+    height: 351px;
+    width: 280px;
+    background-color: #E9E0D3 !important;
+    border: solid 2px !important;
+    border-radius: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+.brand-detail-title{
+    text-align: start;
+    font-size: 5rem;
+    margin-top: 3rem;
+    border-bottom: solid 2px;
+}
+.coll-pro-wrapper{
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 899px) {
+    .brand-detail-title{
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    .cpw{
+        padding-left: 4rem !important;
+    }
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .brand-detail-title{
+        font-size: 3rem;
+    }
+
+}

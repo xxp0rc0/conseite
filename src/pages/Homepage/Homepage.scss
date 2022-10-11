@@ -1,0 +1,162 @@
+$pink: #E38E91;
+$yellow: #DCD430;
+$green: #A0D5A5;
+$blue: #90C4DB;
+
+
+
+.video-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-direction: column;
+    padding-top: 15vh;
+};
+.conseite{
+  text-align: center;
+  font-size: 6vw;
+  margin-top: 1vh;
+  margin-bottom: 4vh;
+  text-decoration: bold;
+}
+@mixin headlines {
+  text-align: start;
+  font-size: 26px;
+  margin: 3rem 0 ;
+  font-weight: 700;
+} 
+.rent-headline{
+  @include headlines();
+}
+.rent-step{
+  display: flex;
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+#step-one{
+  
+  background-color: $pink;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+}
+#step-two{
+  background-color: $yellow;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+}
+#step-three{
+  background-color: $green;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+}
+#step-four{
+  background-color: $blue;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+}
+.rent-info p{
+  font-size: 14px
+}
+.step-info{
+  margin-bottom: 5px;
+}
+
+
+
+.feature-gear{
+  @include headlines();
+}
+
+.product-thumb{
+  object-fit: cover;
+  width: 60%;
+}
+.thumb-title{
+  text-align: center;
+  margin: 2rem 0 0 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+.thumb-frame{
+  height: 350px;
+  width: 280px;
+  background-color: #E9E0D3 !important;
+  border: solid 2px;
+  border-radius: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.home-body{
+  margin: 0 10%;
+}
+.popular-brands{
+  @include headlines()
+}
+.brandss {
+  filter: grayscale(100%);
+   object-fit: cover;
+   width: 90%;
+   cursor: pointer;
+  
+}
+.brandss:hover{
+   filter: none;
+  
+}
+.pop-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.break-line{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+@media screen and (min-width: 1023px) {
+
+.video-banner video{
+    width: 50%;
+    height: 50vh;
+     object-fit: cover;
+}
+}
+@media screen and (max-width: 1022px) {
+
+.video-banner video{
+    width: 80%;
+    height: 50vh;
+     object-fit: cover;
+};
+.conseite{
+   font-size: 13vw;
+}
+}
+@media screen and (max-width: 767px) {
+
+.video-banner video{
+    width: 100%;
+    height: 50vh;
+     object-fit: cover;
+};
+.conseite{
+   font-size: 13vw;
+}
+.thumb-mo{
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+.rent-step{
+  width: 50%;
+  text-align: start;
+  margin : 0 !important
+}
+}

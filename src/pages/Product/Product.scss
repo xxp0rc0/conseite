@@ -1,0 +1,123 @@
+@mixin btn {
+  background: black;
+  border: none;
+  border-radius: 0;
+  width: 12rem;
+  height: 3rem;
+  font-size: 1rem;
+  padding: 10px 0;
+}
+
+.pro-img {
+  filter: drop-shadow(8px 8px 4px);
+  height: 20rem;
+  width: 30rem;
+  color: #fff;
+  text-align: center;
+  background: none;
+  object-fit: cover;
+}
+.product-page{
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 8%
+};
+.product-name{
+  font-size: 2.5rem;
+};
+
+.rental-date{
+  border-top: "solid 1px black" !important;
+};
+
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  margin-bottom: 24px;
+  overflow: hidden;
+  background: #f7f7f7;
+  border: 0px;
+  border-radius: 2px;
+  background-color: "none";
+}
+[data-theme='compact'] .site-collapse-custom-collapse .site-collapse-custom-panel,
+.site-collapse-custom-collapse .site-collapse-custom-panel .ant-collapse-header-text{
+  margin-bottom: 24px;
+  overflow: hidden;
+  background: #E38E91;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  
+}
+
+.pro-img {
+  filter: drop-shadow(8px 8px 4px);
+}
+.ant-drawer-title{
+  font-size: 3rem;
+}
+
+.pick-n-deli{
+  padding-top: 15px;
+  font-size: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.add-to-cart{
+  background: black !important;
+  border: none !important;
+  border-radius: 0 !important;
+  width: 12rem ;
+  height: 3rem !important;
+  font-size: 1rem !important;
+  padding: 10px 0;
+}
+.add-to-cart:hover{
+  background: none !important;
+  color: black !important;
+  border: solid 2px !important;
+}
+.checkout{
+  background: none !important;
+  border: solid 1px black !important;
+  border-radius: 0 !important;
+  width: 12rem;
+  height: 3rem !important;
+  font-size: 1rem !important;
+  padding: 10px 0;
+}
+.checkout:hover{
+  background: black !important;
+  color: white !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 374px) {
+  .pro-img{
+    width: 10rem !important;
+    height: 10rem;
+    margin-bottom: 2rem;
+    padding-left: 0 !important;
+
+  }
+}
+@media screen and (max-width: 500px) {
+  .pro-img{
+    width: 20rem;
+    margin-bottom: 2rem;
+    padding-left: 0 !important;
+  }
+  .add-to-cart, .checkout{
+    width: 22rem !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .pro-img{
+    padding-left: 10rem;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .pick-n-deli{
+    padding-top: 0 !important;
+  }
+}
