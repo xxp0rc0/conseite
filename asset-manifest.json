@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/conseite/static/css/main.e137121a.css",
+    "main.js": "/conseite/static/js/main.04d8f2cf.js",
+    "static/js/787.a94bba21.chunk.js": "/conseite/static/js/787.a94bba21.chunk.js",
+    "static/media/film.mp4": "/conseite/static/media/film.223d9aa96d374b418013.mp4",
+    "static/media/pentax.png": "/conseite/static/media/pentax.f486740abd55cb1033d6.png",
+    "static/media/Sneak-Regular.otf": "/conseite/static/media/Sneak-Regular.21a0f1e2f68478a6406b.otf",
+    "static/media/lens.png": "/conseite/static/media/lens.2b3ce6920d65fd5ac03d.png",
+    "static/media/tripod.png": "/conseite/static/media/tripod.f67bfe60cc1f88b928b9.png",
+    "static/media/canon.png": "/conseite/static/media/canon.d28bc1c73b05ed128955.png",
+    "static/media/minolta.png": "/conseite/static/media/minolta.d59f192fa358a6086f16.png",
+    "static/media/nikon.png": "/conseite/static/media/nikon.f488e7e5bffda5b14845.png",
+    "static/media/fujilogo.png": "/conseite/static/media/fujilogo.b2ce94101cb7efac36ba.png",
+    "static/media/pentaxlogo.png": "/conseite/static/media/pentaxlogo.ddf7718226f3d2152cb2.png",
+    "index.html": "/conseite/index.html",
+    "main.e137121a.css.map": "/conseite/static/css/main.e137121a.css.map",
+    "main.04d8f2cf.js.map": "/conseite/static/js/main.04d8f2cf.js.map",
+    "787.a94bba21.chunk.js.map": "/conseite/static/js/787.a94bba21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e137121a.css",
+    "static/js/main.04d8f2cf.js"
+  ]
+}
