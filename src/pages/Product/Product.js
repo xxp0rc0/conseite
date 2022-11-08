@@ -154,7 +154,7 @@ const Product = (props) => {
                       <RangePicker
                         bordered={false}
                         style={{ verticalAlign: "center", color: "black" }}
-                        allowEmpty={false}
+                        allowEmpty={false, true}
                         onChange={Change}
                       />
                     </Space>
