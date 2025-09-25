@@ -39,7 +39,7 @@ const Header = () => {
           }}
         >
           <NavbarBrand
-            href="/"
+            href="/home"
             style={{
               borderBottom: "solid 3px black",
               borderTop: "solid 3px black",
